@@ -1,0 +1,7 @@
+'''
+Purpose: Create a application that allows the user to create or decode QR Codes based on his input.
+
+Input: Message to be encoded or the QR code to be decoded.
+
+Output: Message encoded to QR CODE or Full information of decoded QR Code.
+'''
