@@ -10,6 +10,7 @@ import qrcode
 import cv2
 from pyzbar.pyzbar import decode
 from PIL import Image
+from time import sleep as sleep
 
 
 # Key_exit is a tool to keep the procces looping until the user ask to stop.
@@ -51,3 +52,5 @@ while key_exit:
             break
             
     key_exit = True if msg == "Yes" or msg == "Y" else False
+    print("Task terminated.")
+    sleep(5)
