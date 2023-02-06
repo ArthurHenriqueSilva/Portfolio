@@ -28,7 +28,7 @@ while key_exit:
     if option == 1:  
         data = input("Put the message that you want to encode in QR: ")
         img = qrcode.make(data)
-        img.save("Your_QR/My_QR_CODE.png")
+        img.save("My_QR_CODE.png")
         img = cv2.imread('My_QR_CODE.png')
         cv2.imshow("This is your QR CODE!", img)
         cv2.waitKey(0)
