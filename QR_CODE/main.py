@@ -53,4 +53,4 @@ while key_exit:
             
     key_exit = True if msg == "Yes" or msg == "Y" else False
     print("Task terminated.")
-    sleep(5)
+    sleep(3)
