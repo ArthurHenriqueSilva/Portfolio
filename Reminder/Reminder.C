@@ -1,7 +1,8 @@
 /*
-Purpose: Develop a system to reminde the use of personal medication using Threads.
+Purpose: Develop a system to remind the use of personal medication using Threads.
 
-Input: Medication data only at the time of registration
+Input: Medication data only at the time of registration. 
+Note: Consider Medication Data as the name, interval in seconds between doses and number of doses.
 
 Output: Reminders of each medicine according to the specified time
 
