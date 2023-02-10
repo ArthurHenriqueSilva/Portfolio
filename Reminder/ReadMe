@@ -1,0 +1,10 @@
+/*
+Purpose: Develop a system to reminde the use of personal medication using Threads.
+
+Input: Medication data only at the time of registration
+
+Output: Reminders of each medicine according to the specified time
+
+Compile: gcc -g -Wall -o Reminder Reminder.c -lpthread
+Usage: ./Reminder
+*/
