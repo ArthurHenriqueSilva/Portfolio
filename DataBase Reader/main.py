@@ -119,6 +119,7 @@ def main():
             event_athletes[event].append(athlete)
             season_athletes[season].append(athlete)
         
+        # Informing the time that app needed to execute 1st reading and generation of basic structures.       
         print(f'The app needed {(time.time() - start_time):.2} to execute the first reading of database.')
 
 
@@ -131,9 +132,9 @@ def main():
         continent_countries = dict key/continent e value/array dos countryes 
         noc_country = dict key/noc e value/country
         country_noc_continent = dict key/country e value/noc
-        country_athlete = dict key/country e value/array de objetos Athlete
-        event_athletes = dicionário com key/esporte e value/array de objetos Athlete
-        season_athletes = dicionário com key/season e value/array de objetos Athlete
+        country_athlete = dict key/country e value/array of Athletes
+        event_athletes = dicionário com key/esporte e value/array of Athletes
+        season_athletes = dicionário com key/season e value/array of Athletes
         '''
 
         
