@@ -36,13 +36,13 @@ def main():
         nocs = csv.reader(open('noc_regions.csv'))
         
 
-        # The first step in this algorithm is to make a first reading to generate the structrues that are used inside the actual tasks. 
+        # The first step in this algorithm is to make a first reading to generate the structures that are actually used inside the tasks. 
         
         # noc_country = dict key/country e value/noc
         noc_country = dd(lambda: [], {})
         country_noc_continent = dd(lambda: [], {})
         next(nocs)
-        # In this reading, it was necessary to explicit inform the Hong Kong occurrence because iw was part from the database information incosistencies
+        # In this reading, it was necessary to explicitly inform the Hong Kong occurrence because it was a database information incosistence
         for line in nocs:
             noc = line[0]
             country = line[1]
@@ -55,7 +55,7 @@ def main():
         
         
         
-        # Func to correct some database information incosistencies
+        # Func to correct other database information incosistencies
         def trap(country):
             equal_to = {
             "Burkina": "Burkina Faso", 
@@ -119,7 +119,7 @@ def main():
             event_athletes[event].append(athlete)
             season_athletes[season].append(athlete)
         
-        # Informing the time that app needed to execute 1st reading and generation of basic structures.       
+        # Informing the time that the app needed to execute 1st reading and generate the basic storage structures.       
         print(f'The app needed {(time.time() - start_time):.2} to execute the first reading of database.')
 
 
