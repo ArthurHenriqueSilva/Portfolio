@@ -27,7 +27,7 @@ class Athlete:
 CONTINENTS =  ['Africa', 'Asia', 'Europe', 'North America', 'South America','Oceania']
   
 
-# The project will have somethin about 5 options of filter. The first one is already implemented in this version.
+# The project will have around 5 options of filter. The first one is already implemented in this version.
 def main():
         start_time = time.time()
         # Opening the files
